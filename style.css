@@ -106,6 +106,12 @@
    font-family: Arial, Helvetica, sans-serif;
 }
 
-.combo li{
+.combo, .combo li, .combo a{
    list-style: none;
+   width: fit-content;
+   padding: 0px;
+}
+
+.combo{
+   margin: 40px;
 }
